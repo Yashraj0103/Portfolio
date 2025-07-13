@@ -1,21 +1,24 @@
 # Portfolio
 Portfolio Website
-🚀 Live Demo: [https://github.com/Yashraj0103.github.io]Click Here
+🚀 Live Demo: [View Portfolio Website](https://yashraj.github.io/portfolio)
 
-📌 About
-This is my personal portfolio website, showcasing my projects, skills, and achievements. Built with HTML, CSS, and JavaScript, it provides a clean and interactive UI for visitors.
 
-🛠️ Features
-About Me section with a witty yet professional touch
-Skills section with an improved UI displaying technical expertise
-Projects section highlighting my work
-Resume Download option
-Responsive Design for seamless experience across devices
-🔧 Status
-This portfolio is still a work in progress, and new features & refinements will be added soon.
+## 🚀 Features
 
-📅 Upcoming Enhancements
-Live deployment
-Improved animations and interactivity
-Contact form integration
-Stay tuned for updates! ✨
+- 📄 **Resume Download** button
+- 🧠 **Skills** section with modern layout
+- 💼 **Projects** showcase with links and descriptions
+- 📝 **Experience** and **Education** timeline
+- 📬 **Contact Me** button (email trigger)
+- 📱 Fully responsive for mobile and desktop
+- 🎨 Custom styling using HTML, CSS, and JavaScript
+
+- ## 🛠️ Technologies Used
+
+- HTML5
+- CSS3 (including Flexbox & Grid)
+- Vanilla JavaScript
+- Tailwind CSS (if used)
+- Lucide Icons (for UI icons)
+- GitHub Pages (for deployment)
+
