@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yash Raj - Portfolio</title>
+  <link href="https://unpkg.com/lucide@latest/dist/lucide.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="grid-layout">
+      <!-- Profile Column (Left) -->
+      <div class="profile-column">
+        <div class="profile-card">
+           
+          <!-- Profile Image -->
+          <div class="profile-image">
+        <img src="assets/cropped_image.png" alt="Yash Raj" class="avatar" />
+          </div>
+          
+          <!-- Name and Title -->
+          <div class="profile-header">
+            <h1>Yash Raj</h1>
+            <p>Front End Developer and Cloud Engineer</p>
+          </div>
+          
+          <!-- Contact Information -->
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon" style="background-color: rgba(59, 130, 246, 0.2);">
+                <i data-lucide="mail"></i>
+              </div>
+              <div>
+                <p class="contact-label">EMAIL</p>
+                <p class="contact-value">official.yash0103@gmail.com</p>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <div class="contact-icon" style="background-color: rgba(34, 197, 94, 0.2);">
+                <i data-lucide="phone"></i>
+              </div>
+              <div>
+                <p class="contact-label">PHONE</p>
+                <p class="contact-value">7903101778</p>
+              </div>
+            </div>
+            
+            
+            
+            <div class="contact-item">
+              <div class="contact-icon" style="background-color: rgba(249, 115, 22, 0.2);">
+                <i data-lucide="map-pin"></i>
+              </div>
+              <div>
+                <p class="contact-label">LOCATION</p>
+                <p class="contact-value">Patna , India</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Social Links -->
+          <div class="social-links">
+            <a href="https://github.com/Yashraj0103" class="social-link">
+              <i data-lucide="github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/yash-raj-935303269/" class="social-link">
+              <i data-lucide="linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Content Column (Right) -->
+      <div class="content-column">
+        <!-- Navigation Component -->
+        <nav class="navigation" id="navigation">
+          <div class="tabs-container" id="tabs-container">
+            <!-- Tabs will be added by JavaScript -->
+          </div>
+        </nav>
+        
+        <!-- Main Content Area -->
+        <div class="content-container" id="content-area">
+          <!-- About Section -->
+          <div id="about-section" class="about-section">
+            <div class="section-header">
+              <h2>About Me</h2>
+              <div class="section-divider"></div>
+            </div>
+            
+            <div class="about-content">
+              <p>
+                Hi, I’m Yash Raj, a final-year B.Tech Computer Science student at UPES Dehradun, specializing in Cloud Computing and Virtualization Technologies (CCVT).
+              </p>
+              
+              <p>
+                My projects and professional work demonstrate my commitment to leveraging cutting-edge technology for impactful results. Currently, I’m actively strengthening my Data Structures & Algorithms (DSA) and preparing for placement season, with a focus on coding, system design, and aptitude.
+              </p>
+              
+              <p>
+                When I'm not coding, I enjoy exploring new technologies, contributing to open source projects, and capturing moments through photography while hiking in nature.
+              </p>
+            </div>
+            
+            <div class="action-buttons">
+              <a href="assets/Yash_Raj_Resume.pdf" class="btn btn-primary" download>
+              <i class="btn-icon" data-lucide="download"></i>
+              Download Resume
+              </a>
+              <button class="btn btn-outline">
+                <i class="btn-icon" data-lucide="mail"></i>
+                Hire Me
+              </button>
+            </div>
+          </div>
+          
+          <!-- Skills Section -->
+<div id="skills-section" class="skills-section" style="display:none">
+  <div class="section-header">
+    <h2>Professional Skills</h2>
+    <div class="section-divider"></div>
+  </div>
+  
+  <div class="about-content">
+    <p>Equipped with a strong grasp of front-end development, cloud technologies, and DevOps. Proficient in Docker, and database management, with a knack for building scalable and efficient solutions.</p>
+  </div>
+  
+  <div class="about-content">
+    <p>These are some of the technologies I have expertise in. I have worked on multiple projects using these technologies.</p>
+  </div>
+  
+  <!-- Skills Grid with Percentage Bars -->
+  <div class="skills-grid-container">
+    <!-- First Row -->
+    <div class="skills-row">
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-name">HTML5</span>
+          <span class="skill-percent">90%</span>
+        </div>
+        <div class="skill-progress-container">
+          <div class="skill-progress-bar" style="width: 90%;"></div>
+        </div>
+      </div>
+      
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-name">CSS</span>
+          <span class="skill-percent">85%</span>
+        </div>
+        <div class="skill-progress-container">
+          <div class="skill-progress-bar" style="width: 85%;"></div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Second Row -->
+    <div class="skills-row">
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-name">JAVASCRIPT</span>
+          <span class="skill-percent">75%</span>
+        </div>
+        <div class="skill-progress-container">
+          <div class="skill-progress-bar" style="width: 75%;"></div>
+        </div>
+      </div>
+      
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-name">MySQL</span>
+          <span class="skill-percent">75%</span>
+        </div>
+        <div class="skill-progress-container">
+          <div class="skill-progress-bar" style="width: 75%;"></div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Third Row -->
+    <div class="skills-row">
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-name">DOCKER</span>
+          <span class="skill-percent">80%</span>
+        </div>
+        <div class="skill-progress-container">
+          <div class="skill-progress-bar" style="width: 80%;"></div>
+        </div>
+      </div>
+      
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-name">JAVA</span>
+          <span class="skill-percent">90%</span>
+        </div>
+        <div class="skill-progress-container">
+          <div class="skill-progress-bar" style="width: 90%;"></div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <!-- Fourth Row -->
+    <div class="skills-row">
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-name">AWS & AZURE TOOLS</span>
+          <span class="skill-percent">85%</span>
+        </div>
+        <div class="skill-progress-container">
+          <div class="skill-progress-bar" style="width: 85%;"></div>
+        </div>
+      </div>
+      
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-name">PYTHON</span>
+          <span class="skill-percent">75%</span>
+        </div>
+        <div class="skill-progress-container">
+          <div class="skill-progress-bar" style="width: 75%;"></div>
+        </div>
+      </div>
+    </div>
+    
+  
+  </div>
+</div>
+          
+          <!-- Resume Section -->
+          <div id="resume-section" class="resume-section" style="display:none">
+            <div class="section-header">
+              <h2>Resume</h2>
+              <div class="section-divider"></div>
+            </div>
+            
+            <!-- Experience Section -->
+            <div class="resume-category">
+              <div class="category-header">
+                <div class="category-icon" style="background-color: rgba(59, 130, 246, 0.2);">
+                  <i data-lucide="briefcase"></i>
+                </div>
+                <h3 class="category-title">Experience</h3>
+              </div>
+              
+              <div class="timeline">
+                <div class="timeline-item">
+                  <div class="timeline-header">
+                    <h4 class="timeline-position">Project Intern</h4>
+                    <span class="timeline-date blue">June-July 2025</span>
+                  </div>
+                  <p class="timeline-company">IBM</p>
+                  <p class="timeline-description">
+                    <ul>
+                    <li>Developed a cloud application for the project titled "Cloud Based Market Research Tools," enabling scalable data collection, analysis, and visualization for market trends.</li>
+                    <li>Leveraged cloud services to ensure high availability and secure access for distributed teams.</li>
+                  </ul>
+                  </p>
+                </div>
+                
+                <div class="timeline-item">
+                  <div class="timeline-header">
+                    <h4 class="timeline-position">Web Development Intern</h4>
+                    <span class="timeline-date blue">June 2025</span>
+                  </div>
+                  <p class="timeline-company">CODSOFT (Virtual Internship)</p>
+                  <p class="timeline-description">
+                    <ul>
+                      <li>
+                        Built responsive web interfaces using HTML, CSS, and JavaScript, enhancing user experience and accessibility.
+                      </li>
+                      <li>
+                        Completed real-time projects and strengthened understanding of frontend development
+                      </li>
+                    </ul>
+                  </p>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-header">
+                    <h4 class="timeline-position">Social Internship</h4>
+                    <span class="timeline-date blue">June-July 2023</span>
+                  </div>
+                  <p class="timeline-company">PARIVARTAN SOCIAL FOUNDATION</p>
+                  <p class="timeline-description">
+                    <ul>
+                    <li>Developed a custom website for tracking student attendance in rural schools, integrated with Google Sheets to
+                    enable real-time data updates and monitoring.</li>
+                  
+                    <li>Reduced manual effort by 60% through automation, improving tracking accuracy for 100+ rural students.</li>
+
+                    </ul>
+                  </div>
+              </div>
+            </div>
+            
+            <!-- Education Section -->
+            <div class="resume-category">
+              <div class="category-header">
+                <div class="category-icon" style="background-color: rgba(34, 197, 94, 0.2);">
+                  <i data-lucide="graduation-cap"></i>
+                </div>
+                <h3 class="category-title">Education</h3>
+              </div>
+              
+              <div class="timeline">
+                <div class="timeline-item">
+                  <div class="timeline-header">
+                    <h4 class="timeline-position">B.Tech in Computer Science</h4>
+                    <span class="timeline-date green">2022 - 2026</span>
+                  </div>
+                  <p class="timeline-company green">University of Petroleum & Energy Studies</p>
+                  <p class="timeline-description">
+                    specializing in Cloud Computing and Virtualization (CCVT).
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Certificates & Awards Section -->
+            <div class="resume-category">
+              <div class="category-header">
+                <div class="category-icon" style="background-color: rgba(168, 85, 247, 0.2);">
+                  <i data-lucide="award"></i>
+                </div>
+                <h3 class="category-title">Certificates</h3>
+              </div>
+              
+              <div class="timeline">
+                  <div class="timeline-item">
+                    <div class="timeline-header">
+                      <h5 class="timeline-position">AWS Academy Cloud Web Application Builder</h5>
+                      <span class="timeline-date purple">2025</span>
+                    </div>
+                  </div>
+                  
+                  <div class="timeline-item">
+                    <div class="timeline-header">
+                      <h5 class="timeline-position">AWS Cloud Practitioner Essentials</h5>
+                      <span class="timeline-date purple">2025</span>
+                    </div>
+                  </div>
+
+                  <div class="timeline-item">
+                    <div class="timeline-header">
+                      <h5 class="timeline-position">AWS Academy  Cloud Architecting</h5>
+                      <span class="timeline-date purple">2024</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          
+          <!-- Projects Section -->
+          <div id="project-section" class="projects-section" style="display:none">
+            <div class="section-header">
+              <h2>Projects</h2>
+              <div class="section-divider"></div>
+            </div>
+            
+            <div class="projects-grid">
+              <!-- Project 1 -->
+              
+<div class="project-card">
+  <div class="project-header">
+    <div class="project-icon blue">
+      <i data-lucide="globe"></i>
+    </div>
+    <div class="project-actions">
+      <a href="https://github.com/Yashraj0103/Text-File-Manipulator" class="project-action" target="_blank" rel="noopener noreferrer">
+        <i data-lucide="github"></i>
+      </a>
+    </div>
+  </div>
+
+  <h3 class="project-title">Text File Manipulator</h3>
+  <p class="project-description">
+   Developed a CLI tool in Java for text file operations such as editing, sorting, and reversing content. Utilized efficient DSA techniques for performance optimization and implemented robust error handling for large
+text file operations.</p>
+  <div class="project-tech">
+    <span class="tech-tag">JAVA</span>
+    <!--<span class="tech-tag">Node.js</span>
+    <span class="tech-tag">PostgreSQL</span>
+    <span class="tech-tag">Stripe</span><!-->
+  </div>
+</div>
+
+<!-- Project 2 -->
+<div class="project-card">
+  <div class="project-header">
+    <div class="project-icon green">
+      <i data-lucide="code"></i>
+    </div>
+    <div class="project-actions">
+      <a href="https://github.com/Yashraj0103/Mentor-Allocation-System" class="project-action" target="_blank" rel="noopener noreferrer">
+        <i data-lucide="github"></i>
+      </a>
+    </div>
+  </div>
+
+  <h3 class="project-title">Mentor Allocation System</h3>
+  <p class="project-description">
+    Built a web system to automate mentor-project assignments based on expertise and preferences. Designed user-friendly interfaces and integrated backend with database for managing mentor-mentee data.
+  </p>
+
+  <div class="project-tech">
+    <span class="tech-tag">HTML</span>
+    <span class="tech-tag">CSS</span>
+    <span class="tech-tag">JAVASCRIPT</span>
+  </div>
+</div>
+
+<!-- Project 3 -->
+<div class="project-card">
+  <div class="project-header">
+    <div class="project-icon purple">
+      <i data-lucide="smartphone"></i>
+    </div>
+    <div class="project-actions">
+      <a href="https://github.com/Yashraj0103/container-experiments" class="project-action" target="_blank" rel="noopener noreferrer">
+        <i data-lucide="github"></i>
+      </a>
+    </div>
+  </div>
+
+  <h3 class="project-title">Container Experiments</h3>
+  <p class="project-description">
+    Conducted experiments with Docker containers, including image creation, container orchestration, and networking.
+  </p>  
+
+  <div class="project-tech">
+    <span class="tech-tag">Docker</span>
+    <span class="tech-tag">Kubernetes</span>
+    <span class="tech-tag">API Integration</span>
+  </div>
+</div>
+
+<!--project 4-->
+
+<div class="project-card">
+  <div class="project-header">
+    <div class="project-icon blue">
+      <i data-lucide="file-json"></i>
+    </div>
+    <div class="project-actions">
+      <a href="https://github.com/Yashraj0103/AIML-project" class="project-action" target="_blank" rel="noopener noreferrer">
+        <i data-lucide="github"></i>
+      </a>
+    </div>
+  </div>
+
+  <h3 class="project-title">AIML Project - Loan Approval Predictor</h3>
+  <p class="project-description">
+    Developed a machine learning model to predict loan approval based on applicant data. Implemented data preprocessing, feature engineering, and model evaluation techniques to achieve high accuracy.
+  </p>  
+
+  <div class="project-tech">
+    <span class="tech-tag">Docker</span>
+    <span class="tech-tag">Kubernetes</span>
+    <span class="tech-tag">API Integration</span>
+  </div>
+</div>
+</div>
+</div>
+          
+          <!-- Contact Section -->
+          <div id="contact-section" class="contact-section" style="display:none">
+            <div class="section-header">
+              <h2>Contact</h2>
+              <div class="section-divider"></div>
+            </div>
+            
+            <div class="contact-grid">
+              <!-- Contact Information -->
+              <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p>
+                  I'm always interested in hearing about new opportunities and exciting projects. 
+                  Whether you have a question or just want to say hi, feel free to reach out!
+                </p>
+                
+                
+                
+                <div class="availability-card">
+                  <h4>Available for</h4>
+                  <div class="space-y-2">
+                    <div class="availability-item">
+                      <div class="availability-dot green"></div>
+                      <span class="availability-text">Development Projects</span>
+                    </div>
+                    <div class="availability-item">
+                      <div class="availability-dot blue"></div>
+                      <span class="availability-text">Full-time Opportunities</span>
+                    </div>
+                    <div class="availability-item">
+                      <div class="availability-dot red"></div>
+                      <span class="availability-text">Software Developer</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Contact Form -->
+              <div class="contact-form-container">
+                <div class="form-header">
+                  <i data-lucide="message-square"></i>
+                  <h3>Send Message</h3>
+                </div>
+                
+                <form id="contact-form" class="contact-form">
+                  <div class="form-grid">
+                    <input 
+                      type="text" 
+                      name="name" 
+                      id="name" 
+                      placeholder="Your Name" 
+                      class="form-input" 
+                      required
+                    >
+                    <input 
+                      type="email" 
+                      name="email" 
+                      id="email" 
+                      placeholder="Your Email" 
+                      class="form-input" 
+                      required
+                    >
+                  </div>
+                  
+                  <input 
+                    type="text" 
+                    name="subject" 
+                    id="subject" 
+                    placeholder="Subject" 
+                    class="form-input" 
+                    required
+                  >
+                  
+                  <textarea 
+                    name="message" 
+                    id="message" 
+                    placeholder="Your Message" 
+                    class="form-textarea" 
+                    required
+                  ></textarea>
+                  
+                  <button type="submit" class="submit-btn">
+                    <i data-lucide="send" class="w-4 h-4"></i>
+                    Send Message
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast">
+    <p class="toast-title">Message Sent!</p>
+    <p class="toast-description">Thank you for your message. I'll get back to you soon.</p>
+  </div>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+<script src="script.js"></script>
+    
+</body>
+</html>
+
+
+
+
+
+  
